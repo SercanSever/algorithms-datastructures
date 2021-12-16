@@ -1,0 +1,12 @@
+C:\Projects\Algorithms\Algorithms.Datastructures\bin\Debug\net6.0\Algorithms.Datastructures.deps.json
+C:\Projects\Algorithms\Algorithms.Datastructures\bin\Debug\net6.0\Algorithms.Datastructures.dll
+C:\Projects\Algorithms\Algorithms.Datastructures\bin\Debug\net6.0\ref\Algorithms.Datastructures.dll
+C:\Projects\Algorithms\Algorithms.Datastructures\bin\Debug\net6.0\Algorithms.Datastructures.pdb
+C:\Projects\Algorithms\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.csproj.AssemblyReference.cache
+C:\Projects\Algorithms\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Algorithms\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.AssemblyInfoInputs.cache
+C:\Projects\Algorithms\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.AssemblyInfo.cs
+C:\Projects\Algorithms\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.csproj.CoreCompileInputs.cache
+C:\Projects\Algorithms\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.dll
+C:\Projects\Algorithms\Algorithms.Datastructures\obj\Debug\net6.0\ref\Algorithms.Datastructures.dll
+C:\Projects\Algorithms\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.pdb

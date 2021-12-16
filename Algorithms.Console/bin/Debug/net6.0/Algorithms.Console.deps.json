@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Algorithms.Console/1.0.0": {
+        "dependencies": {
+          "Algorithms.Datastructures": "1.0.0"
+        },
+        "runtime": {
+          "Algorithms.Console.dll": {}
+        }
+      },
+      "Algorithms.Datastructures/1.0.0": {
+        "runtime": {
+          "Algorithms.Datastructures.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Algorithms.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Algorithms.Datastructures/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
