@@ -7,6 +7,14 @@ namespace Algorithms.Datastructures.LinkedLists.Doubly
       public DoublyLinkedListNode<T> Head { get; set; }
       public DoublyLinkedListNode<T> Tail { get; set; }
 
+      public DoublyLinkedList(IEnumerable<T> collection)
+      {
+         foreach (var item in collection)
+         {
+            AddLast(item);
+         }
+      }
+
       public void AddFirst(T value)
       {
          var newNode = new DoublyLinkedListNode<T>(value);
