@@ -33,6 +33,10 @@ singlyLinkedList.AddLast(5);
 singlyLinkedList.AddAfter(singlyLinkedList.Head.Next, 32);
 // 3 2 32 1 4 5 <-- result
 
+foreach (var item in singlyLinkedList)
+{
+   System.Console.WriteLine(item);
+}
 
 
 System.Console.WriteLine();

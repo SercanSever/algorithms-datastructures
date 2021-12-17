@@ -1,7 +1,10 @@
+using System.Collections;
+
 namespace Algorithms.Datastructures.LinkedLists
 {
-   public class SinglyLinkedList<T>
+   public class SinglyLinkedList<T> : IEnumerable<T>
    {
+
       public SinglyLinkedListNode<T> Head { get; set; }
 
       public void AddFirst(T value)
@@ -42,6 +45,16 @@ namespace Algorithms.Datastructures.LinkedLists
             current = current.Next;
          }
          throw new ArgumentException("The reference node is not in the list.");
+      }
+
+      public IEnumerator<T> GetEnumerator()
+      {
+         return new SinglyLinkedListEnumerator<T>(Head);
+      }
+
+      IEnumerator IEnumerable.GetEnumerator()
+      {
+         return GetEnumerator();
       }
    }
 }
