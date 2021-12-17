@@ -62,10 +62,25 @@ namespace Algorithms.Datastructures.LinkedLists
             Prev = current;
             current = current.Next;
          }
+         var lastValue = Prev.Next.Value;
          Prev.Next = null;
-         return Prev.Next.Value;
+         return lastValue;
       }
 
+      public void Remove(T value)
+      {
+         var current = Head;
+         while (current != null)
+         {
+            if (current.Value.Equals(value))
+            {
+               Prev.Next = current.Next;
+               current.Next = null;
+            }
+            Prev = current;
+            current = current.Next;
+         }
+      }
 
 
       public IEnumerator<T> GetEnumerator()

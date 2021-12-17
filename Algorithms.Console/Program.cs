@@ -33,15 +33,19 @@ singlyLinkedList.AddLast(5);
 singlyLinkedList.AddAfter(singlyLinkedList.Head.Next, 32);
 // 3 2 32 1 4 5 <-- result
 
+singlyLinkedList.RemoveFirst();
+// 2 32 1 4 5 <-- result
+singlyLinkedList.RemoveLast();
+// 2 32 1 4 <-- result
+singlyLinkedList.Remove(1);
+// 2 32 4 <-- result
+
 foreach (var item in singlyLinkedList)
 {
    System.Console.WriteLine(item);
 }
 
-singlyLinkedList.RemoveFirst();
-// 2 32 1 4 5 <-- result
-singlyLinkedList.RemoveLast();
-// 3 2 32 1 4 <-- result
+
 #endregion
 
 
