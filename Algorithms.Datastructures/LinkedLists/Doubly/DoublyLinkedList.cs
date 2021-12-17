@@ -6,6 +6,8 @@ namespace Algorithms.Datastructures.LinkedLists.Doubly
    {
       public DoublyLinkedListNode<T> Head { get; set; }
       public DoublyLinkedListNode<T> Tail { get; set; }
+      private bool IsHeadNull => Head == null ? true : false;
+      private bool IsTailNull => Tail == null ? true : false;
 
       public DoublyLinkedList(IEnumerable<T> collection)
       {
@@ -137,5 +139,48 @@ namespace Algorithms.Datastructures.LinkedLists.Doubly
       {
          return GetAllNodes().GetEnumerator();
       }
+
+      public T RemoveFirst()
+      {
+         if (IsHeadNull)
+         {
+            throw new ArgumentNullException();
+         }
+         var temp = Head.Value;
+         if (Head == Tail)
+         {
+            Head = null;
+            Tail = null;
+         }
+         else
+         {
+            Head = Head.Next;
+            Head.Prev = null;
+         }
+         return temp;
+      }
+
+      public T RemoveLast()
+      {
+         if (IsTailNull)
+         {
+            throw new ArgumentNullException();
+         }
+         var temp = Tail.Value;
+         if (Tail == Head)
+         {
+            Head = null;
+            Tail = null;
+         }
+         else
+         {
+            Tail.Prev.Next = null;
+            Tail = Tail.Prev;
+         }
+         return temp;
+      }
+
+
+
    }
 }
