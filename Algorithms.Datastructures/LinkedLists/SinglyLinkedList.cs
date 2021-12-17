@@ -3,7 +3,6 @@ namespace Algorithms.Datastructures.LinkedLists
    public class SinglyLinkedList<T>
    {
       public SinglyLinkedListNode<T> Head { get; set; }
-      public SinglyLinkedListNode<T> Tail { get; set; }
 
       public void AddFirst(T value)
       {
