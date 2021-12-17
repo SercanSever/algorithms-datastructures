@@ -38,9 +38,10 @@ foreach (var item in singlyLinkedList)
    System.Console.WriteLine(item);
 }
 
-
-System.Console.WriteLine();
-
+singlyLinkedList.RemoveFirst();
+// 2 32 1 4 5 <-- result
+singlyLinkedList.RemoveLast();
+// 3 2 32 1 4 <-- result
 #endregion
 
 

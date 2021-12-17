@@ -6,6 +6,7 @@ namespace Algorithms.Datastructures.LinkedLists
    {
 
       public SinglyLinkedListNode<T> Head { get; set; }
+      public SinglyLinkedListNode<T> Prev { get; set; }
 
       public void AddFirst(T value)
       {
@@ -46,6 +47,26 @@ namespace Algorithms.Datastructures.LinkedLists
          }
          throw new ArgumentException("The reference node is not in the list.");
       }
+
+      public T RemoveFirst()
+      {
+         var firstValue = Head.Value;
+         Head = Head.Next;
+         return firstValue;
+      }
+      public T RemoveLast()
+      {
+         var current = Head;
+         while (current.Next != null)
+         {
+            Prev = current;
+            current = current.Next;
+         }
+         Prev.Next = null;
+         return Prev.Next.Value;
+      }
+
+
 
       public IEnumerator<T> GetEnumerator()
       {
