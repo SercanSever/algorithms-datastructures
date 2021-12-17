@@ -80,6 +80,7 @@ namespace Algorithms.Datastructures.LinkedLists
             Prev = current;
             current = current.Next;
          }
+         throw new ArgumentException("The value could not be found in the list");
       }
 
 
