@@ -1,6 +1,8 @@
+using System.Collections;
+
 namespace Algorithms.Datastructures.LinkedLists.Doubly
 {
-   public class DoublyLinkedList<T>
+   public class DoublyLinkedList<T> : IEnumerable
    {
       public DoublyLinkedListNode<T> Head { get; set; }
       public DoublyLinkedListNode<T> Tail { get; set; }
@@ -71,6 +73,10 @@ namespace Algorithms.Datastructures.LinkedLists.Doubly
          }
       }
 
+      public object ToList()
+      {
+         throw new NotImplementedException();
+      }
 
       public void AddBefore(DoublyLinkedListNode<T> refNode, DoublyLinkedListNode<T> newNode)
       {
@@ -119,8 +125,9 @@ namespace Algorithms.Datastructures.LinkedLists.Doubly
          return list;
       }
 
-
-
-
+      public IEnumerator GetEnumerator()
+      {
+         return GetAllNodes().GetEnumerator();
+      }
    }
 }
