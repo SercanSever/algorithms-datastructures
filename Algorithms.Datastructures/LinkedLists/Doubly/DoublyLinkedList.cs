@@ -106,5 +106,21 @@ namespace Algorithms.Datastructures.LinkedLists.Doubly
          }
       }
 
+      private List<DoublyLinkedListNode<T>> GetAllNodes()
+      {
+         var list = new List<DoublyLinkedListNode<T>>();
+
+         var current = Head;
+         while (current.Next != null)
+         {
+            list.Add(current);
+            current = current.Next;
+         }
+         return list;
+      }
+
+
+
+
    }
 }
