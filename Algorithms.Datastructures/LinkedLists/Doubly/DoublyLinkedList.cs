@@ -180,6 +180,54 @@ namespace Algorithms.Datastructures.LinkedLists.Doubly
          return temp;
       }
 
+      public T Remove(T value)
+      {
+         if (IsHeadNull)
+         {
+            throw new ArgumentNullException();
+         }
+         var temp = Tail.Value;
+         if (Head == Tail)
+         {
+            if (Head.Value.Equals(value))
+            {
+               RemoveFirst();
+            }
+         }
+
+         var current = Head;
+         while (current != null)
+         {
+            if (current.Value.Equals(value))
+            {
+               if (current.Prev == null)
+               {
+                  current.Next.Prev = null;
+                  Head = current.Next;
+               }
+               else if (current.Next == null)
+               {
+                  current.Prev.Next = null;
+                  Tail = current.Prev;
+               }
+               else
+               {
+                  current.Next.Prev = current.Prev;
+                  current.Prev.Next = current.Next;
+               }
+               break;
+            }
+            else
+            {
+               throw new ArgumentException();
+            }
+         }
+
+
+         return temp;
+      }
+
+
 
 
    }
