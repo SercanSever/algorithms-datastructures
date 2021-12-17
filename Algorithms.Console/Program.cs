@@ -64,7 +64,10 @@ doublyList.AddAfter(doublyList.Head.Next, new DoublyLinkedListNode<int>(5)
 );
 // 2 1 5 3 4 <-- result
 
+doublyList.AddBefore(doublyList.Head.Next, new DoublyLinkedListNode<int>(10));
+// 2 10 1 5 3 4 <-- result
 
+System.Console.WriteLine();
 
 #endregion
 

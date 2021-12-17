@@ -71,5 +71,40 @@ namespace Algorithms.Datastructures.LinkedLists.Doubly
          }
       }
 
+
+      public void AddBefore(DoublyLinkedListNode<T> refNode, DoublyLinkedListNode<T> newNode)
+      {
+         if (refNode == null)
+         {
+            throw new ArgumentNullException();
+         }
+         if (refNode == Head && refNode == Tail)
+         {
+            refNode.Prev = newNode;
+            refNode.Next = null;
+            newNode.Prev = null;
+            newNode.Next = refNode;
+
+            Head = newNode;
+            Tail = refNode;
+            return;
+         }
+
+         if (refNode != Head)
+         {
+            newNode.Next = refNode;
+            newNode.Prev = refNode.Prev;
+            refNode.Prev.Next = newNode;
+            refNode.Prev = newNode;
+         }
+         else
+         {
+            newNode.Next = refNode;
+            newNode.Prev = newNode;
+            refNode.Next = null;
+            Head = newNode;
+         }
+      }
+
    }
 }
