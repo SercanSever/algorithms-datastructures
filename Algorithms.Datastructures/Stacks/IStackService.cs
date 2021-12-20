@@ -6,6 +6,5 @@ namespace Algorithms.Datastructures.Stacks
       T Peek();
       T Pop();
       int Count { get; }
-      void Clear();
    }
 }

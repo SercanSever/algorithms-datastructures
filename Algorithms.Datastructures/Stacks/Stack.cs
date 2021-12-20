@@ -27,12 +27,6 @@ namespace Algorithms.Datastructures.Stacks
       {
          _stackService.Push(value);
       }
-      public void Clear()
-      {
-         _stackService.Clear();
-      }
-
-
    }
 
    public enum StackType

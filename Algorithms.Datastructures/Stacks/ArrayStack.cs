@@ -5,11 +5,6 @@ namespace Algorithms.Datastructures.Stacks
       public int Count { get; private set; }
       private readonly List<T> list = new();
 
-      public void Clear()
-      {
-         list.Clear();
-      }
-
       public T Peek()
       {
          return list[list.Count - 1];
