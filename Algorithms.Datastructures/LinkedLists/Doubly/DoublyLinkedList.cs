@@ -16,6 +16,10 @@ namespace Algorithms.Datastructures.LinkedLists.Doubly
             AddLast(item);
          }
       }
+      public DoublyLinkedList()
+      {
+
+      }
 
       public void AddFirst(T value)
       {
