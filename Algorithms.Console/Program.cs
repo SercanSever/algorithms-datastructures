@@ -77,8 +77,17 @@
 #region BinarySearchTree
 
 using Algorithms.Datastructures.Trees.BinarySearchTree;
+using Algorithms.Datastructures.Trees.BinaryTree;
 
 var bst = new BST<int>(new int[] { 23, 16, 45, 3, 22, 37, 99 });
+
+var bt = new BT<int>();
+bt.InOrder(bst.Root).ForEach(node => System.Console.WriteLine(node + " "));
+
+// new BT<int>().PreOrder(bst.Root).ForEach(node => System.Console.WriteLine(node + " "));
+
+// new BT<int>().PostOrder(bst.Root).ForEach(node => System.Console.WriteLine(node + " "));
+BT<int>.MaxDepth(bst.Root);
 
 Console.ReadKey();
 #endregion

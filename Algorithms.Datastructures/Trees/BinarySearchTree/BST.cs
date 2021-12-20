@@ -1,5 +1,6 @@
 using System.Reflection.Metadata.Ecma335;
 using System.Collections;
+using Algorithms.Datastructures.Trees.BT;
 
 namespace Algorithms.Datastructures.Trees.BinarySearchTree
 {
@@ -36,7 +37,6 @@ namespace Algorithms.Datastructures.Trees.BinarySearchTree
          if (Root == null)
          {
             Root = newNode;
-
          }
          else
          {
