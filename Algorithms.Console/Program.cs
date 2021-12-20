@@ -49,29 +49,36 @@
 #endregion
 
 #region DounlyLinkedListResults
-using Algorithms.Datastructures.LinkedLists.Doubly;
+// using Algorithms.Datastructures.LinkedLists.Doubly;
 
-var doublyList = new DoublyLinkedList<int>();
-doublyList.AddFirst(1);
-doublyList.AddFirst(2);
-// 2 1 <-- result
+// var doublyList = new DoublyLinkedList<int>();
+// doublyList.AddFirst(1);
+// doublyList.AddFirst(2);
+// // 2 1 <-- result
 
-doublyList.AddLast(3);
-doublyList.AddLast(4);
-// 2 1 3 4 <-- result
+// doublyList.AddLast(3);
+// doublyList.AddLast(4);
+// // 2 1 3 4 <-- result
 
-doublyList.AddAfter(doublyList.Head.Next, new DoublyLinkedListNode<int>(5)
-);
-// 2 1 5 3 4 <-- result
+// doublyList.AddAfter(doublyList.Head.Next, new DoublyLinkedListNode<int>(5)
+// );
+// // 2 1 5 3 4 <-- result
 
-doublyList.AddBefore(doublyList.Head.Next, new DoublyLinkedListNode<int>(10));
-// 2 10 1 5 3 4 <-- result
+// doublyList.AddBefore(doublyList.Head.Next, new DoublyLinkedListNode<int>(10));
+// // 2 10 1 5 3 4 <-- result
 
-foreach (var item in doublyList)
-{
-   System.Console.WriteLine(item);
-}
+// foreach (var item in doublyList)
+// {
+//    System.Console.WriteLine(item);
+// }
 
 #endregion
 
+#region BinarySearchTree
 
+using Algorithms.Datastructures.Trees.BinarySearchTree;
+
+var bst = new BST<int>(new int[] { 23, 16, 45, 3, 22, 37, 99 });
+
+Console.ReadKey();
+#endregion
