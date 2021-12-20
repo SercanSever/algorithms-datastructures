@@ -86,12 +86,6 @@ namespace Algorithms.Datastructures.LinkedLists.Doubly
             Tail = newNode;
          }
       }
-
-      public object ToList()
-      {
-         throw new NotImplementedException();
-      }
-
       public void AddBefore(DoublyLinkedListNode<T> refNode, DoublyLinkedListNode<T> newNode)
       {
          if (refNode == null)
