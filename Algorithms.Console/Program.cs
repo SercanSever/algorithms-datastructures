@@ -76,18 +76,47 @@
 
 #region BinarySearchTree
 
-using Algorithms.Datastructures.Trees.BinarySearchTree;
-using Algorithms.Datastructures.Trees.BinaryTree;
+// using Algorithms.Datastructures.Trees.BinarySearchTree;
+// using Algorithms.Datastructures.Trees.BinaryTree;
 
-var bst = new BST<int>(new int[] { 23, 16, 45, 3, 22, 37, 99 });
+// var bst = new BST<int>(new int[] { 23, 16, 45, 3, 22, 37, 99 });
 
-var bt = new BT<int>();
-bt.InOrder(bst.Root).ForEach(node => System.Console.WriteLine(node + " "));
+// var bt = new BT<int>();
+// bt.InOrder(bst.Root).ForEach(node => System.Console.WriteLine(node + " "));
 
-// new BT<int>().PreOrder(bst.Root).ForEach(node => System.Console.WriteLine(node + " "));
+// // new BT<int>().PreOrder(bst.Root).ForEach(node => System.Console.WriteLine(node + " "));
 
-// new BT<int>().PostOrder(bst.Root).ForEach(node => System.Console.WriteLine(node + " "));
-BT<int>.MaxDepth(bst.Root);
+// // new BT<int>().PostOrder(bst.Root).ForEach(node => System.Console.WriteLine(node + " "));
+// BT<int>.MaxDepth(bst.Root);
 
-Console.ReadKey();
+// Console.ReadKey();
 #endregion
+
+#region BinaryHeap
+
+//MINHEAP
+// using Algorithms.Datastructures.Heap;
+
+// var minHeap = new MinHeap<int>(new int[] { 4, 1, 10, 8, 7, 5, 9, 3 });
+
+// foreach (var item in minHeap)
+// {
+//    System.Console.WriteLine(item);
+// }
+// Console.ReadKey();
+
+//MAXHEAP
+using Algorithms.Datastructures.Heap;
+
+var maxHeap = new MaxHeap<int>(new int[] { 15, 2, 25, 30, 50, 5, 8, 1 });
+
+foreach (var item in maxHeap)
+{
+   System.Console.WriteLine(item);
+}
+Console.ReadKey();
+
+
+#endregion
+
+

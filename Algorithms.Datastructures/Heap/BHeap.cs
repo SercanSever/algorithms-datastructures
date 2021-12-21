@@ -61,10 +61,10 @@ namespace Algorithms.Datastructures.Heap
          {
             throw new IndexOutOfRangeException();
          }
-         Array[_position++] = value;
+         Array[_position] = value;
          _position++;
          Count++;
-         //HeapifyUp();
+         HeapifyUp();
       }
       public T DeleteMinMax()
       {
@@ -76,20 +76,19 @@ namespace Algorithms.Datastructures.Heap
          Array[0] = Array[_position - 1];
          _position--;
          Count--;
-         //HeapifyDown();
+         HeapifyDown();
          return temp;
       }
       protected abstract void HeapifyUp();
       protected abstract void HeapifyDown();
-
       public IEnumerator<T> GetEnumerator()
       {
          return Array.Take(_position).GetEnumerator();
       }
-
       IEnumerator IEnumerable.GetEnumerator()
       {
          return GetEnumerator();
       }
+
    }
 }
