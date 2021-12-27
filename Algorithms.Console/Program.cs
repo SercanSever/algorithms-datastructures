@@ -106,17 +106,75 @@
 // Console.ReadKey();
 
 //MAXHEAP
-using Algorithms.Datastructures.Heap;
+// using Algorithms.Datastructures.Heap;
 
-var maxHeap = new MaxHeap<int>(new int[] { 15, 2, 25, 30, 50, 5, 8, 1 });
+// var maxHeap = new MaxHeap<int>(new int[] { 15, 2, 25, 30, 50, 5, 8, 1 });
 
-foreach (var item in maxHeap)
-{
-   System.Console.WriteLine(item);
-}
-Console.ReadKey();
+// foreach (var item in maxHeap)
+// {
+//    System.Console.WriteLine(item);
+// }
+// Console.ReadKey();
 
 
 #endregion
 
+#region SortingAlgorithms
+using Algorithms.Datastructures.SortingAlgorithms;
+
+//SELECTİON
+var array = new int[] { 15, 4, 2, 8, 1, 415 };
+foreach (var item in array)
+{
+   System.Console.WriteLine($"{item,-5}");
+}
+
+Selection.Sort<int>(array);
+System.Console.WriteLine("------------------------------");
+System.Console.WriteLine("Selection");
+foreach (var item in array)
+{
+   System.Console.WriteLine($"{item,-5}");
+}
+
+//BUBBLE
+
+Bubble.Sort<int>(array);
+System.Console.WriteLine("------------------------------");
+System.Console.WriteLine("Bubble");
+foreach (var item in array)
+{
+   System.Console.WriteLine($"{item,-5}");
+}
+
+//Insertion
+
+Insertion.Sort<int>(array);
+System.Console.WriteLine("------------------------------");
+System.Console.WriteLine("Insertion");
+foreach (var item in array)
+{
+   System.Console.WriteLine($"{item,-5}");
+}
+
+//Quick
+Quick.Sort<int>(array);
+System.Console.WriteLine("------------------------------");
+System.Console.WriteLine("Quick");
+foreach (var item in array)
+{
+   System.Console.WriteLine($"{item,-5}");
+}
+
+//MERGE
+Merge.Sort<int>(array);
+System.Console.WriteLine("------------------------------");
+System.Console.WriteLine("Merge");
+foreach (var item in array)
+{
+   System.Console.WriteLine($"{item,-5}");
+}
+
+
+#endregion
 
