@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Algorithms\\Algorithms.Console\\Algorithms.Console.csproj": {}
+    "C:\\Users\\PROGRAMCI\\Desktop\\Algorithms\\algorithms-datastructures\\Algorithms.Console\\Algorithms.Console.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Algorithms\\Algorithms.Console\\Algorithms.Console.csproj": {
+    "C:\\Users\\PROGRAMCI\\Desktop\\Algorithms\\algorithms-datastructures\\Algorithms.Console\\Algorithms.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Algorithms\\Algorithms.Console\\Algorithms.Console.csproj",
+        "projectUniqueName": "C:\\Users\\PROGRAMCI\\Desktop\\Algorithms\\algorithms-datastructures\\Algorithms.Console\\Algorithms.Console.csproj",
         "projectName": "Algorithms.Console",
-        "projectPath": "C:\\Projects\\Algorithms\\Algorithms.Console\\Algorithms.Console.csproj",
+        "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\Algorithms\\algorithms-datastructures\\Algorithms.Console\\Algorithms.Console.csproj",
         "packagesPath": "C:\\Users\\PROGRAMCI\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Algorithms\\Algorithms.Console\\obj\\",
+        "outputPath": "C:\\Users\\PROGRAMCI\\Desktop\\Algorithms\\algorithms-datastructures\\Algorithms.Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\Algorithms\\Algorithms.Datastructures\\Algorithms.Datastructures.csproj": {
-                "projectPath": "C:\\Projects\\Algorithms\\Algorithms.Datastructures\\Algorithms.Datastructures.csproj"
+              "C:\\Users\\PROGRAMCI\\Desktop\\Algorithms\\algorithms-datastructures\\Algorithms.Datastructures\\Algorithms.Datastructures.csproj": {
+                "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\Algorithms\\algorithms-datastructures\\Algorithms.Datastructures\\Algorithms.Datastructures.csproj"
               }
             }
           }
@@ -64,18 +64,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\Algorithms\\Algorithms.Datastructures\\Algorithms.Datastructures.csproj": {
+    "C:\\Users\\PROGRAMCI\\Desktop\\Algorithms\\algorithms-datastructures\\Algorithms.Datastructures\\Algorithms.Datastructures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Algorithms\\Algorithms.Datastructures\\Algorithms.Datastructures.csproj",
+        "projectUniqueName": "C:\\Users\\PROGRAMCI\\Desktop\\Algorithms\\algorithms-datastructures\\Algorithms.Datastructures\\Algorithms.Datastructures.csproj",
         "projectName": "Algorithms.Datastructures",
-        "projectPath": "C:\\Projects\\Algorithms\\Algorithms.Datastructures\\Algorithms.Datastructures.csproj",
+        "projectPath": "C:\\Users\\PROGRAMCI\\Desktop\\Algorithms\\algorithms-datastructures\\Algorithms.Datastructures\\Algorithms.Datastructures.csproj",
         "packagesPath": "C:\\Users\\PROGRAMCI\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Algorithms\\Algorithms.Datastructures\\obj\\",
+        "outputPath": "C:\\Users\\PROGRAMCI\\Desktop\\Algorithms\\algorithms-datastructures\\Algorithms.Datastructures\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -124,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

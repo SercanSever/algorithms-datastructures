@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 
 namespace Algorithms.Datastructures.Graphs.AdjancencySet
 {
@@ -6,13 +7,18 @@ namespace Algorithms.Datastructures.Graphs.AdjancencySet
    {
       private class GraphVertex<T> : IGraphVertex<T>
       {
-         public T Key => throw new NotImplementedException();
-
-         public IEnumerator<IEdge<T>> Edges => throw new NotImplementedException();
-
-         public IEdge<T> GetEdge(IGraphVertex<T> key)
+         public T Key { get; set; }
+         public HashSet<GraphVertex<T>> Edges { get; private set; }
+         public GraphVertex(T key)
          {
-            throw new NotImplementedException();
+            Key = key;
+         }
+
+         IEnumerable<IEdge<T>> IGraphVertex<T>.Edges => Edges.Select(x => new Edge<T, int>(x, 1));
+
+         public IEdge<T> GetEdge(IGraphVertex<T> targetVertex)
+         {
+            return new Edge<T, int>(targetVertex, 1);
          }
 
          public IEnumerator<T> GetEnumerator()

@@ -10,3 +10,15 @@ C:\Projects\Algorithms\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Dat
 C:\Projects\Algorithms\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.dll
 C:\Projects\Algorithms\Algorithms.Datastructures\obj\Debug\net6.0\ref\Algorithms.Datastructures.dll
 C:\Projects\Algorithms\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.pdb
+C:\Users\PROGRAMCI\Desktop\Algorithms\algorithms-datastructures\Algorithms.Datastructures\bin\Debug\net6.0\Algorithms.Datastructures.deps.json
+C:\Users\PROGRAMCI\Desktop\Algorithms\algorithms-datastructures\Algorithms.Datastructures\bin\Debug\net6.0\Algorithms.Datastructures.dll
+C:\Users\PROGRAMCI\Desktop\Algorithms\algorithms-datastructures\Algorithms.Datastructures\bin\Debug\net6.0\ref\Algorithms.Datastructures.dll
+C:\Users\PROGRAMCI\Desktop\Algorithms\algorithms-datastructures\Algorithms.Datastructures\bin\Debug\net6.0\Algorithms.Datastructures.pdb
+C:\Users\PROGRAMCI\Desktop\Algorithms\algorithms-datastructures\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.csproj.AssemblyReference.cache
+C:\Users\PROGRAMCI\Desktop\Algorithms\algorithms-datastructures\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PROGRAMCI\Desktop\Algorithms\algorithms-datastructures\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.AssemblyInfoInputs.cache
+C:\Users\PROGRAMCI\Desktop\Algorithms\algorithms-datastructures\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.AssemblyInfo.cs
+C:\Users\PROGRAMCI\Desktop\Algorithms\algorithms-datastructures\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.csproj.CoreCompileInputs.cache
+C:\Users\PROGRAMCI\Desktop\Algorithms\algorithms-datastructures\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.dll
+C:\Users\PROGRAMCI\Desktop\Algorithms\algorithms-datastructures\Algorithms.Datastructures\obj\Debug\net6.0\ref\Algorithms.Datastructures.dll
+C:\Users\PROGRAMCI\Desktop\Algorithms\algorithms-datastructures\Algorithms.Datastructures\obj\Debug\net6.0\Algorithms.Datastructures.pdb
